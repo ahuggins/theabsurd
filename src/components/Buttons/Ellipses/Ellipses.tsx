@@ -5,7 +5,7 @@ export default function Ellipses({
   disabled = false
 }: {
   onClick: React.MouseEventHandler;
-  disabled: boolean;
+  disabled?: boolean;
 }) {
   return (
     <button
